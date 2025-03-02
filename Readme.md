@@ -36,3 +36,18 @@ pip install -r requirements.txt
 
 # Configure environment
 cp .env.example .env
+
+```
+## Configuration ⚙️ 
+
+**Required for OpenAI**
+OPENAI_API_KEY=sk-your-key-here
+
+**Required for HuggingFace**
+HUGGINGFACEHUB_API_TOKEN=your-hf-token-here
+
+**Provider selection (openai/huggingface)**
+AI_PROVIDER=openai
+
+**Model specifics**
+MODEL_NAME=gpt-4  # or tiiuae/falcon-7b-instruct
